@@ -3,6 +3,7 @@
 // and restrictions contact your company contract manager.
 
 #pragma once
+#include "Runtime/Launch/Resources/Version.h"
 
 #if ENGINE_MAJOR_VERSION >= 5
 #include "Online/CoreOnline.h"
@@ -12,6 +13,7 @@
 #include "IPAddress.h"
 #include "Runtime/Launch/Resources/Version.h"
 #include "AccelByteNetworkUtilitiesPackage.h"
+#include "NetConnectionAccelByte.h"
 
 /*
  * FInternetAddrAccelByte will hold the custom AccelByte IP.
